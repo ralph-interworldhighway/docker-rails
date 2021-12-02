@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+To boot we need to use 'docker-compose up'
+To stop the application, run 'docker-compose down'
 
-Things you may want to cover:
+Finally, you need to create the database. In another terminal, run:  'docker-compose run web rake db:create'
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Reference: https://docs.docker.com/samples/rails/
